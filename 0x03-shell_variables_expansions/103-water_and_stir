@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Check if the WATER and STIR environment variables are set
+if [ -z "$WATER" ] || [ -z "$STIR" ]; then
+    echo "WATER or STIR is not set."
+    exit 1
+fi
+
+# Convert base water and base stir to base 10 using the tr command
+water_base10=$(echo "$WATER" | tr 'ewatrb' '012345' | tr -d '\n')
+stir_base10=$(echo "$STIR" | tr 'stir.' '012345' | tr -d '\n')
+
+# Add the two numbers in base 10 and convert the result to base bestchol
+result_basebestchol=$(echo "$water_base10 + $stir_base10" | bc | tr '0123456789ABCDEF' 'bestchol')
+
+# Print the result
+echo "$result_basebestchol"
+

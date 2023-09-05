@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Check if the DECIMAL environment variable is set
+if [ -z "$DECIMAL" ]; then
+    echo "DECIMAL is not set."
+    exit 1
+fi
+
+# Use printf to convert and print DECIMAL in base 16
+printf "%x\n" "$DECIMAL"
+
