@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Check if the NUM environment variable is set
+if [ -z "$NUM" ]; then
+    echo "NUM is not set."
+    exit 1
+fi
+
+# Use printf to format and print NUM with two decimal places
+printf "%.2f\n" "$NUM"
+
