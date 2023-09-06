@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Create the file with the specified name and content.
+echo "Best School" > '\*\\'"Best School"\'\\*\$\?*\*\*\*\*\*:)' 
+
+# Verify that the file was created.
+ls -l '\*\\'"Best School"\'\\*\$\?*\*\*\*\*\*:)'
+
