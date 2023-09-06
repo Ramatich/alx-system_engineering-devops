@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Recursively find and delete .js files in the current directory and subdirectories
+find . -type f -name "*.js" -exec rm {} \;
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Run the ls -la command and save its output to ls_cwd_content
+ls -la > ls_cwd_content
+
+# Verify that the file was created or overwritten
+ls -l ls_cwd_content
+
