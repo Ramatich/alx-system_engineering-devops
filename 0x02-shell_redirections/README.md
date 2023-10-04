@@ -1,2 +1,9 @@
-alx script that prints hello world
+# 0-hello_world
+
+This script prints "Hello, World" followed by a new line to the standard output.
+
+## Usage
+
+Run the script as follows:
+
 
