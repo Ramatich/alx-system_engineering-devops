@@ -14,3 +14,8 @@ This Bash script decodes acrostics that use the first letter of each line. It ta
 
 To use the script, provide an input file containing the acrostic text as input. The decoded message will be printed to the standard output.
 
+
+##Empty casks
+To find all empty files and directories should be displayed 
+
+
