@@ -21,5 +21,13 @@ To find all empty files and directories should be displayed
 ##DJ CUT killer
 writing scripts that displays the users and their directories
 
-#HIAGO
+#Script Description
 Create a script that remove all letters
+his script reads input from standard input and removes all occurrences of the letters 'c' and 'C'.
+
+## Usage
+
+To use the script, pipe input to it as follows:
+
+```bash
+echo "Chicago" | ./20-hiago
