@@ -31,3 +31,14 @@ To use the script, pipe input to it as follows:
 
 ```bash
 echo "Chicago" | ./20-hiago
+
+
+# Reverse Script
+
+This script reverses its input using the `rev` command.
+
+## Usage
+
+```bash
+echo "Reverse" | ./21-reverse
+
