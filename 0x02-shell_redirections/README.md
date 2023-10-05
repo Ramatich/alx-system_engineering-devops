@@ -18,4 +18,5 @@ To use the script, provide an input file containing the acrostic text as input. 
 ##Empty casks
 To find all empty files and directories should be displayed 
 
-
+##DJ CUT killer
+writing scripts that displays the users and their directories
